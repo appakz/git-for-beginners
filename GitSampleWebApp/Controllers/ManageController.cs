@@ -35,6 +35,7 @@ namespace GitSampleWebApp.Controllers
             }
             private set
             {
+                //some big feature commit 002
                 _userManager = value;
             }
         }
