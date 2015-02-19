@@ -11,6 +11,7 @@ namespace GitSampleWebApp.Controllers
         public ActionResult Index()
         {
             //commit 001
+            //rebase commit 002
             return View();
         }
 
