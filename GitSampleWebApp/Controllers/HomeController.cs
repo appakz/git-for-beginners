@@ -25,6 +25,7 @@ namespace GitSampleWebApp.Controllers
 
         public ActionResult Contact()
         {
+            //rebase commit 003
             ViewBag.Message = "Your contact page.";
 
             return View();
