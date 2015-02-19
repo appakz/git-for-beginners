@@ -20,18 +20,22 @@ namespace GitSampleWebApp.Controllers
 
         public ManageController(ApplicationUserManager userManager)
         {
+
+            //some big feature commit 001
             UserManager = userManager;
         }
 
         private ApplicationUserManager _userManager;
         public ApplicationUserManager UserManager
         {
+            //some big feature commit 001
             get
             {
                 return _userManager ?? HttpContext.GetOwinContext().GetUserManager<ApplicationUserManager>();
             }
             private set
             {
+                //some big feature commit 002
                 _userManager = value;
             }
         }
