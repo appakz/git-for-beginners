@@ -21,6 +21,7 @@ namespace GitSampleWebApp.Controllers
             ViewBag.Message = "Your application description page.";
 
             //bug fix 003
+            //master bug fix 004
             return View();
         }
 
