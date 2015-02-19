@@ -26,6 +26,7 @@ namespace GitSampleWebApp.Controllers
         public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager )
         {
             UserManager = userManager;
+            //another feature commit 001
             SignInManager = signInManager;
         }
 
