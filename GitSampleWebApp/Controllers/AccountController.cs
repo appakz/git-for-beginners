@@ -38,6 +38,7 @@ namespace GitSampleWebApp.Controllers
             private set
             {
                 _userManager = value;
+                //jesse bug fix commit 002
             }
         }
 
