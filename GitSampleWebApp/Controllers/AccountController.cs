@@ -33,6 +33,7 @@ namespace GitSampleWebApp.Controllers
         {
             get
             {
+                //rebase sample commit 001
                 return _userManager ?? HttpContext.GetOwinContext().GetUserManager<ApplicationUserManager>();
             }
             private set
